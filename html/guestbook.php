@@ -53,7 +53,7 @@
                 else
                 {
                     fclose($handle);
-                    apologize("Invalid file format");
+                    apologize("Invalid file format/File too big.");
                 }
             }
             else

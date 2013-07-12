@@ -1,6 +1,6 @@
 <form enctype="multipart/form-data"  action="guestbook.php" method="post" >
     <fieldset> 
-        <input type="hidden" name="MAX_FILE_SIZE" value="30000000000" />       
+        <input type="hidden" name="MAX_FILE_SIZE" value="3000000" />       
         <div class="control-group">
             <textarea name="message" placeholder="Message, up to 1000 symbols" rows="6" maxlength=1000></textarea>            
         </div>
